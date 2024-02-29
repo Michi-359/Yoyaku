@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'lessons/hello'
   resources :rooms
   resources :reservations
   devise_for :users
