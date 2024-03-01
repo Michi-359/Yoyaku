@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  get 'date/index'
   get 'lessons/hello'
   resources :rooms
   resources :reservations
